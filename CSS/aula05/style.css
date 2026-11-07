@@ -1,0 +1,121 @@
+/* exemplo sobre prevalência das propriedades / estilização de css */
+
+/* body{
+    background-color: black;
+    color: white;
+}
+
+main{
+    background-color: rgb(172, 116, 116);
+    color: rgb(53, 1, 1);
+}
+
+footer{
+    color:yellow;
+}
+
+p{
+    color: rgb(17, 151, 2);
+} */
+
+/* EXEMPLOS PARA TIPOGRAFIA */
+
+/* Tamanho da fonte, cor e estilo da fonte */
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    /* pixel não é responsiva */
+    /* em, vh,vw e % são medidas responsivas */
+    color: skyblue;
+    /* cores nomeadas, cores RGB e cores hexadecimais */
+    font-style: italic;
+    font-weight: 100;
+    
+}
+
+/* alinhamentos */
+
+h2{
+    text-align:center;
+}
+
+p{
+    text-align: justify;
+    color:pink;
+}
+
+h4{
+    text-align: right; 
+    /* end/ right */
+    /* left/ start */
+}
+
+/* CORES NO CSS */
+/* cor de plano de fundo */
+
+body{
+    background-color: #abe7dd;
+}
+
+main{
+    background-color:rgba(1, 10, 44, 0.99);
+    color: #fff;
+    padding: 20px;
+}
+
+/* SELETORES DE CSS */
+
+/* tag */
+li{
+    color:chartreuse;
+}
+/* lista - mais de uma tag recebe as mesmas características*/
+h2,h3,h4{
+    color:darkmagenta;
+}
+
+article, section{
+    /* border-color:red;
+    border-style:solid;
+    border-width: 5px; */
+    /* border-right: 5px solid red; */
+    border: 5px solid red;
+    padding:30px;
+    margin:10px;
+}
+/* o qier diferente é estilizados com o seletor de tag */
+h4{
+    font-style: italic;
+}
+/* afiliação */
+ul li{
+    color:red;
+}
+
+article p{
+    color:red;
+}
+
+/* classe */
+.especial{
+    color:#fff;
+    font-size: 20px;
+
+}
+
+.plano-rosa{
+    background-color: pink;
+    text-transform: uppercase;
+}
+
+/* id */
+#artigo2{
+    background-color: black;
+}

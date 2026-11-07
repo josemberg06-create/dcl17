@@ -1,0 +1,40 @@
+body{
+    background-color:darkslategray;
+    color: brown;
+
+}
+
+p{
+    color: aliceblue;
+    padding: 18px;
+    text-align: justify;
+
+}
+
+h1{
+    color: #fbff00;
+    padding: 32px;
+    text-align: center;
+
+}
+
+h2{
+    color: #8f9142;
+    padding: 24px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+li{
+    color: rgb(221, 221, 145);
+    padding: 18px;
+    text-align:start;
+
+}
+
+/* mudanças do marcador dos itens da lista ordenada */
+ul{
+    list-style-type: square;
+
+}
