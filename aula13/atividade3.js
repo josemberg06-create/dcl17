@@ -1,8 +1,8 @@
-numero1 = prompt("Digite o primeiro número: ");
+let numero1 = prompt("Digite o primeiro número: ");
 
-numero2 = prompt("Digite o segundo número: ");
+let numero2 = prompt("Digite o segundo número: ");
 
-intNumero1 = parseFloat(numero1);
+let intNumero1 = parseFloat(numero1);
 
 intNumero2 = parseFloat(numero2);
 
